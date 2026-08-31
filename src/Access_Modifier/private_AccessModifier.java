@@ -1,23 +1,24 @@
 package Access_Modifier;
 
-public class private_AccessModifier {
+
     // Whatever private we can not Access it Outside the Class
+class student {
+    private int marks = 20;
 
-    void test (){
-        System.out.println("This Method is Default Access Modifier");
-
-    }
-    private  void privateMethod(){
-            System.out.println("This Method is Private Access Modifier");
-        }
-
-        protected void protectedMethod(){
-            System.out.println("This Method is Protected Access Modifier");
-
+        public int getMarks() {
+            return marks;
         }
 
 
-    }
+            public static void main (String[] args){
+                student s = new student();
+                System.out.println(s.getMarks());            }
+        }
+
+
+
+
+
 
 
 
