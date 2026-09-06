@@ -1,7 +1,5 @@
 package com.java.call;
 
-import com.Constructor.Main;
-
 public class methodA {
     void show(){
         System.out.println("This is main method of method A");
