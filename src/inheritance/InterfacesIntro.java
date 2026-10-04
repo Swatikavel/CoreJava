@@ -1,15 +1,15 @@
 package inheritance;
 
  interface Grandparent {
-     void Rights();
+    abstract void Rights();
 
 }
 interface parent {
-     void Legacy();
+    abstract void Legacy();
 }
 
 class child implements Grandparent,parent{
-     public  void Rights() {
+      public void Rights() {
          System.out.println("Grandparent Rights for the decision making");
      }
      public void Legacy() {

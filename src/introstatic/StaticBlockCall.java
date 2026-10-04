@@ -1,7 +1,7 @@
 package introstatic;
 
 public class StaticBlockCall {  // Create Class
-    static {
+   static {
         System.out.println("Static Block");  // Static Block
     }
     public static void main (String[] args){  // Main Method

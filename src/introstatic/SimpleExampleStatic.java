@@ -10,7 +10,7 @@ class ExampleStatic {  //  Crate Class
      ExampleStatic(int age, String name, String Countryname) { // Create Constructor using class name
          this.age = age;
          this.name = name;
-         this.Countryname =Countryname;
+         this.Countryname = Countryname;
      }
  void display(){ // Create method to get statement
     System.out.println("Age: " + age);

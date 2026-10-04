@@ -10,9 +10,13 @@ public class StaticVariableCall {  // Create Class
 //        System.out.println(a);
 //    }
 //}
-    static String name = "Ram";
-    int a =43;
+    static String name ;
+    void display(){
+        System.out.println("Name:" + " Ram ");
+    }
     public static void main (String[] args){
-        System.out.println(name); // call static variable
+      System.out.println(name); // call static variable
+        StaticVariableCall sc = new StaticVariableCall();
+        sc.display();
     }
 }

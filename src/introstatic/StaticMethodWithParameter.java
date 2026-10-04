@@ -8,6 +8,6 @@ public class StaticMethodWithParameter { // Create Class
         System.out.println(name);  // Print Statement
     }
     public static void main (String[] args){
-        show(20,"Dell"); // call static method with parameter passes
+        show(20,"Dell");// call static method with parameter passes
     }
 }
