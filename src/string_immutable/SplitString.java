@@ -6,6 +6,8 @@ public class SplitString {
         String[] Fruits = name.split(",");
         for (String Fruit : Fruits) {
             System.out.println(Fruit);
+
         }
     }
+
 }
